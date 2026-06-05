@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad — Finanzas Claras MX</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --verde: #1B4D3E;
+      --verde-claro: #2A6B55;
+      --crema: #F7F4EF;
+      --texto: #1A1A1A;
+      --texto-suave: #555550;
+      --borde: #D8D3CA;
+      --acento: #C8B97A;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background-color: var(--crema);
+      color: var(--texto);
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    header {
+      background-color: var(--verde);
+      padding: 2.5rem 2rem;
+      text-align: center;
+    }
+
+    .logo-text {
+      font-family: 'DM Serif Display', serif;
+      color: white;
+      font-size: 1.5rem;
+      letter-spacing: 0.04em;
+    }
+
+    .logo-sub {
+      color: var(--acento);
+      font-size: 0.75rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-top: 0.25rem;
+      font-weight: 300;
+    }
+
+    .hero {
+      background-color: var(--verde);
+      padding: 0 2rem 3.5rem;
+      text-align: center;
+      border-bottom: 3px solid var(--acento);
+    }
+
+    .hero h1 {
+      font-family: 'DM Serif Display', serif;
+      color: white;
+      font-size: clamp(1.8rem, 5vw, 2.8rem);
+      line-height: 1.2;
+      max-width: 600px;
+      margin: 0 auto 1rem;
+    }
+
+    .hero p {
+      color: rgba(255,255,255,0.7);
+      font-size: 0.9rem;
+      font-weight: 300;
+    }
+
+    main {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 3rem 2rem 5rem;
+    }
+
+    .section {
+      margin-bottom: 2.5rem;
+      padding-bottom: 2.5rem;
+      border-bottom: 1px solid var(--borde);
+    }
+
+    .section:last-child {
+      border-bottom: none;
+    }
+
+    .section-number {
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--acento);
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.4rem;
+      color: var(--verde);
+      margin-bottom: 1rem;
+      line-height: 1.3;
+    }
+
+    p {
+      color: var(--texto-suave);
+      margin-bottom: 0.9rem;
+      font-weight: 300;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0.5rem 0 0.9rem;
+    }
+
+    ul li {
+      color: var(--texto-suave);
+      font-weight: 300;
+      padding: 0.4rem 0 0.4rem 1.4rem;
+      position: relative;
+      border-bottom: 1px solid var(--borde);
+    }
+
+    ul li:last-child { border-bottom: none; }
+
+    ul li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 6px;
+      height: 6px;
+      background-color: var(--acento);
+      border-radius: 50%;
+    }
+
+    .highlight-box {
+      background: white;
+      border-left: 3px solid var(--verde);
+      padding: 1.2rem 1.4rem;
+      margin: 1rem 0;
+      border-radius: 0 6px 6px 0;
+    }
+
+    .highlight-box p {
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    a {
+      color: var(--verde-claro);
+      text-decoration: none;
+      border-bottom: 1px solid var(--acento);
+      transition: color 0.2s;
+    }
+
+    a:hover { color: var(--verde); }
+
+    .contact-card {
+      background: var(--verde);
+      color: white;
+      padding: 1.8rem 2rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+
+    .contact-card p {
+      color: rgba(255,255,255,0.8);
+      margin-bottom: 0.4rem;
+      font-size: 0.9rem;
+    }
+
+    .contact-card a {
+      color: var(--acento);
+      border-bottom-color: transparent;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    .update-date {
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--texto-suave);
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--borde);
+      letter-spacing: 0.05em;
+    }
+
+    @media (max-width: 600px) {
+      main { padding: 2rem 1.2rem 4rem; }
+      .hero { padding: 0 1.2rem 2.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-text">Finanzas Claras MX</div>
+    <div class="logo-sub">Herramientas para tomar control de tu dinero</div>
+  </header>
+
+  <div class="hero">
+    <h1>Política de Privacidad</h1>
+    <p>Vigente a partir del 1 de junio de 2025</p>
+  </div>
+
+  <main>
+
+    <div class="section">
+      <div class="section-number">01</div>
+      <h2>¿Quién recopila tus datos?</h2>
+      <p>
+        Esta política aplica a <strong>Finanzas Claras MX</strong>, marca comercial con sede en México. Somos los responsables del tratamiento de los datos personales que
+        compartes al interactuar con nosotros a través de WhatsApp Business.
+      </p>
+    </div>
+
+    <div class="section">
+      <div class="section-number">02</div>
+      <h2>¿Qué datos recopilamos?</h2>
+      <p>Al iniciar una conversación con nosotros por WhatsApp, podemos recopilar:</p>
+      <ul>
+        <li>Tu número de teléfono de WhatsApp</li>
+        <li>Tu nombre, si está disponible en tu perfil de WhatsApp</li>
+        <li>El contenido de los mensajes que nos envías voluntariamente</li>
+        <li>Datos de la transacción si realizas una compra (procesados por Mercado Pago)</li>
+      </ul>
+      <p>No recopilamos datos sensibles como contraseñas, documentos de identidad ni información financiera directa.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-number">03</div>
+      <h2>¿Para qué usamos tus datos?</h2>
+      <p>Utilizamos tu información exclusivamente para:</p>
+      <ul>
+        <li>Responderte y atender tu consulta o compra</li>
+        <li>Enviarte el producto digital que adquiriste</li>
+        <li>Brindarte soporte sobre el uso del producto</li>
+        <li>Mejorar la calidad de nuestra atención</li>
+      </ul>
+      <div class="highlight-box">
+        <p>No usamos tus datos para publicidad de terceros, ni los vendemos, cedemos o compartimos con otras empresas con fines comerciales.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-number">04</div>
+      <h2>¿Con quién compartimos tus datos?</h2>
+      <p>
+        Tus datos pueden ser procesados por los siguientes servicios tecnológicos necesarios para
+        la operación del sistema, todos bajo sus propias políticas de privacidad:
+      </p>
+      <ul>
+        <li>Meta Platforms (WhatsApp Business API) — canal de comunicación</li>
+        <li>Mercado Pago — procesamiento de pagos</li>
+        <li>Google (Google Sheets) — almacenamiento interno de configuración</li>
+      </ul>
+      <p>No compartimos tu información con ningún otro tercero.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-number">05</div>
+      <h2>¿Por cuánto tiempo conservamos tus datos?</h2>
+      <p>
+        Conservamos tu número y el registro de la conversación mientras sea necesario para
+        completar y dar soporte a tu compra. Los datos de transacción se conservan conforme
+        a las obligaciones fiscales aplicables en México.
+      </p>
+      <p>
+        Puedes solicitar la eliminación de tus datos en cualquier momento escribiéndonos
+        directamente.
+      </p>
+    </div>
+
+    <div class="section">
+      <div class="section-number">06</div>
+      <h2>Tus derechos (ARCO)</h2>
+      <p>
+        De acuerdo con la Ley Federal de Protección de Datos Personales en Posesión de los
+        Particulares (LFPDPPP) de México, tienes derecho a:
+      </p>
+      <ul>
+        <li><strong>Acceso</strong> — saber qué datos tenemos sobre ti</li>
+        <li><strong>Rectificación</strong> — corregir datos inexactos</li>
+        <li><strong>Cancelación</strong> — solicitar que eliminemos tus datos</li>
+        <li><strong>Oposición</strong> — oponerte al uso de tus datos para ciertos fines</li>
+      </ul>
+      <p>Para ejercer cualquiera de estos derechos, contáctanos por correo electrónico.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-number">07</div>
+      <h2>Cambios a esta política</h2>
+      <p>
+        Podemos actualizar esta política ocasionalmente. Cualquier cambio relevante
+        será comunicado a través de nuestros canales activos. La fecha de vigencia
+        al inicio del documento siempre refleja la versión más reciente.
+      </p>
+    </div>
+
+    <div class="section">
+      <div class="section-number">08</div>
+      <h2>Contacto</h2>
+      <p>Para cualquier pregunta sobre esta política o sobre el manejo de tus datos:</p>
+      <div class="contact-card">
+        <p>Responsable del tratamiento de datos</p>
+        <a href="mailto:eybdigitalmx@gmail.com">eybdigitalmx@gmail.com</a>
+
+      </div>
+    </div>
+
+    <div class="update-date">
+      Última actualización: junio 2025 &nbsp;·&nbsp; Finanzas Claras MX &nbsp;·&nbsp; México
+    </div>
+
+  </main>
+
+</body>
+</html>
